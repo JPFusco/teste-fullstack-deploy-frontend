@@ -1,0 +1,39 @@
+.card-container {
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #FFFFFF;
+  padding: 12px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.card-left {
+  text-align: start;
+  font-weight: 500;
+}
+
+.card-left .marca {
+  color: #364147;
+}
+
+.card-left .nome {
+  color: #1D7555;
+}
+
+.card-left .ano {
+  color: #798083;
+}
+
+.card-right {
+  display: flex;
+  align-items: center;
+}
+
+.card-right img {
+  margin-right: 18px;
+}
+

@@ -1,0 +1,93 @@
+.detalhes-container {
+  position: relative;
+  text-align: start;
+
+  background-color: #F1F2F0;
+  padding: 15px 12px;
+}
+
+.detalhes-container .nome {
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: #1D7555;
+
+  margin-bottom: 25px;
+}
+
+.outros-detalhes {
+  display: flex;
+  justify-content: space-between;
+
+  padding-right: 170px;
+  margin-bottom: 30px;
+}
+
+.outro-detalhe-container h2, .outro-detalhe-container h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.outro-detalhe-container h2 {
+  color: #364147;
+}
+
+.outro-detalhe-container h3 {
+  color: #8F9597;
+}
+
+.detalhes-container p {
+  color: #454545;
+
+  margin-bottom: 60px;
+}
+
+.detalhes-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-top: 1px solid #BABBB9;
+  margin: 0 -12px;
+  padding: 12px 12px 0;
+}
+
+.detalhes-footer button {
+  all: unset;
+  cursor: pointer;
+
+  width: 25%;
+  height: 4.8rem;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #45535A;
+  padding: 0 16px;
+}
+
+.detalhes-footer button img {
+  position: absolute;
+}
+
+
+.detalhes-footer button span {
+  display: block;
+  width: 100%;
+
+  font-size: 1.7rem;
+  text-align: center;
+  color: #EEEFED;
+}
+
+.status-vendido {
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+}
+
+.excluir {
+  cursor: pointer;
+
+  width: 30px;
+  height: 30px;
+}
